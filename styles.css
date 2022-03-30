@@ -1,0 +1,37 @@
+.wrapper {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard {
+  width: 220px;
+  padding: 0.1rem 0;
+  margin-bottom: 1rem;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.board {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 220px;
+  height: 220px;
+}
+
+.board div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: aliceblue;
+}
+
+.food {
+  background-color: darksalmon;
+}
